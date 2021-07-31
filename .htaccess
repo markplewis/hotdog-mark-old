@@ -1,0 +1,7 @@
+# Forces the www subdomain
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTP_HOST} ^therealhotdogmark\.com$ [NC]
+  RewriteRule ^(.*)$ http://www.therealhotdogmark.com/$1 [R=301,L]
+</IfModule>
