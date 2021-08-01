@@ -1,14 +1,14 @@
 {
-    "name": "markplewis/therealhotdogmark",
-    "description": "The Real Hotdog Mark",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Mark Plewis",
-            "email": "markplewis1@gmail.com"
-        }
-    ],
-    "require": {
-        "google/apiclient": "^2.0"
+  "name": "markplewis/hotdog-mark",
+  "description": "The Real Hotdog Mark",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Mark Plewis",
+      "email": "markplewis1@gmail.com"
     }
+  ],
+  "require": {
+    "google/apiclient": "^2.0"
+  }
 }
